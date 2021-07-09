@@ -1,5 +1,5 @@
 pipeline {
-  agent  { label: 'javamaven'} 
+  agent  { label: 'javamaven' } 
     stages {
         stage('Directory') {
             steps {

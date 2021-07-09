@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Package') {
             steps {
-                sh 'mv package'
+                sh 'mvn package'
             }
         }
         stage('Deploy') {
